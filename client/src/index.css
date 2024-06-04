@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar css */
+
+.navbar{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px grey;
+  --webkit-box-shadow:0 8px 6px -6px grey;
+  border-bottom: solid grey !important;
+}
+.nav-link{
+  font-weight: 300 !important;
+}
+.active{
+  border-bottom: 2px solid black;
+}
+.navbar-brand{
+  font-weight: 500;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+/* Footer css */
+.footer{
+  color: wheat;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to right,#434343,#000000);
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.footer a:hover{
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+
+/* Page not found css */
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700;
+}
+.pnf-heading{
+  font-weight: normal;
+}
+.pnf-btn{
+  color: black;
+  border: 1px solid black;
+  padding: 8px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.pnf-btn:hover{
+  background-color: rgb(48, 46, 46);
+  color: white;
+  transition: 0.2s all;
+}
+
+/* Contact uus css */
+.contactus{
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: left;
+  align-items: center;
+  justify-self: center;
+}
+.aboutus{
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: left;
+  align-items: center;
+  justify-self: center;
+}
+.privacy{
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: left;
+  align-items: center;
+  justify-self: center;
+}
+.product-link{
+  text-decoration: none !important ; 
+  color: black !important;
+
+}
+/* .card-img-top{
+  height: 200px;
+  width: 170x;
+} */
+
+.product-list{
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.container{
+  box-shadow: 2px 5px 14px 4px grey;
+}
+
+.cat{
+  margin: 10px;
+  padding: 12px;
+}
